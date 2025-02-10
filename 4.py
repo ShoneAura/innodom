@@ -9,7 +9,6 @@ class MeteoSerializer(serializers.ModelSerializer):
         model = Meteo
         fields = '__all__'
 
-
 class WeatherSerializer(SerializerSerializer):
     start_date = serializers.DateTimeField()
     end_date = serializers.DateTimeField()
