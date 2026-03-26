@@ -1,3 +1,3 @@
 
 def start():
-    pass
+    print('Ulibnis, buska')
